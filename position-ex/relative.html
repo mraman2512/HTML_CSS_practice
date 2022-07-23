@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CSS Positioning</title>
+    <style>
+      body {
+        margin: 100px auto;
+      }
+
+      .container {
+        width: 600px;
+        height: 600px;
+        border: 2px dotted #f008e0;
+        margin: auto;
+        text-align: center;
+        background-color: #fff;
+        position: relative;
+      }
+
+      .item {
+        border-radius: 8%;
+        width: 100px;
+        height: 100px;
+        font-size: 25px;
+        padding-top: 30px;
+        
+      }
+
+      .one {
+        background-color: #e03b8b;
+        position: absolute;
+        top: 50px;
+        right: 0px;
+      }
+
+      .two {
+        background-color: #4dd637;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+
+      .three {
+        background-color: #51e1ed;
+      }
+
+      .four {
+        background-color: #edc126;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item one">1</div>
+      <div class="item two">2</div>
+      <div class="item three">3</div>
+      <div class="item four">4</div>
+    </div>
+  </body>
+</html>

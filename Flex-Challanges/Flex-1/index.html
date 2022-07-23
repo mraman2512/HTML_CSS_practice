@@ -1,0 +1,98 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            box-sizing: border-box;
+            background-color: #DDDDDD;
+        }
+        .container_1 > div, .container_2 > div, .container_3 > div{
+            background-color: #CC7A3B;
+            color: #DDDDDD;
+            font-size: 30px;
+            padding: 5px;
+            border: 1px solid black;
+            margin: 2px 2px;
+            border-radius: 8px;
+        }
+
+        .container_in > div{
+            background-color: #F7F6E3;
+            color: #CC7A3B;
+            font-size: 30px;
+            padding: 5px;
+            border: 1px solid black;
+            margin: 2px 2px;
+            border-radius: 8px;
+        }
+
+        .container_in{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .container_1, .container_2, .container_3{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .row_1 {
+            flex: 27%;
+        }
+        .row_2 {
+            flex: 20%;
+        }
+        .row_3 {
+            flex: 16%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container_1">
+        <div class="row_1">1
+            <div class="container_in">
+                <div class="row_1">1</div>
+                <div class="row_1">2</div>
+                <div class="row_1">3</div>
+            </div>
+        
+            <div class="container_in">
+                <div class="row_2">1</div>
+                <div class="row_2">2</div>
+                <div class="row_2">3</div>
+                <div class="row_2">4</div>
+            </div>
+        
+            <div class="container_in">
+                <div class="row_3">1</div>
+                <div class="row_3">2</div>
+                <div class="row_3">3</div>
+                <div class="row_3">4</div>
+                <div class="row_3">5</div>
+            </div>
+        </div>
+        <div class="row_1">2</div>
+        <div class="row_1">3</div>
+    </div>
+
+    <div class="container_2">
+        <div class="row_2">1</div>
+        <div class="row_2">2</div>
+        <div class="row_2">3</div>
+        <div class="row_2">4</div>
+    </div>
+
+    <div class="container_3">
+        <div class="row_3">1</div>
+        <div class="row_3">2</div>
+        <div class="row_3">3</div>
+        <div class="row_3">4</div>
+        <div class="row_3">5</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,97 @@
+body {
+    background-image: url("../images/background.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 100vp;
+    margin: 0 5%;
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.nav-items {
+    list-style-type: none;
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.brand-img {
+    flex: 1;
+    margin: auto;
+}
+
+.nav-button {
+    background-color: deeppink;
+    border-radius: 20px;
+    padding: 5px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.nav-menu-icon {
+    display: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    flex: 1;
+}
+
+.col {
+    display: flex;
+    flex: 0.5;
+    min-height: 100%;
+}
+
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    color: #fff;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.phone-img {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 90%;
+    height: 90%;
+}
+
+.col-2 p {
+    font-size: 20px;
+}
+
+
+.col-2 h1 {
+    font-size: 70px;
+    margin-top: -5px;
+}
+
+.col-2 img {
+    height: 80px;
+    /* width: 120px; */
+}

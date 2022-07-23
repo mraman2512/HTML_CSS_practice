@@ -1,0 +1,21 @@
+.content {
+    background-color: chocolate;
+    height: 300px;
+    width: 70%;
+    float: left;
+}
+
+.sidebar {
+    background-color: aquamarine;
+    height: 250px;
+    width: 20%;
+    float: left;
+}
+
+.footer {
+
+    background-color: darkmagenta;
+    clear: both;
+    /* Agar height ya width reduce karge to footer waha chala jayega
+    isse bachne ke liye clear:Both use karte isse na hi ye unke right ya left rah sakta hai */
+}

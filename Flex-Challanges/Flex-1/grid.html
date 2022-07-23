@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid_conatiner {
+            background-color: blueviolet;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 10px;
+            grid-auto-rows: minmax(200px, auto);
+            
+        }
+
+        .grid_items {
+            background-color: teal;
+            padding: 10px;
+            border: 2px solid tomato;
+            color: white;
+            line-height: 50px;
+            font-size: 40px;
+            
+        }
+        #first {
+            grid-row-start : 2;
+            grid-row-end:3;
+            grid-column-start: 3;
+            grid-column-end: 4;
+
+            
+        }
+        #sec {
+            grid-row-start:1;
+            grid-row-end: 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid_conatiner">
+        <div class="grid_items" id="first">1
+            <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio ipsa hic veniam repudiandae rerum praesentium culpa laboriosam soluta corporis, optio reprehenderit tempora ipsum nesciunt assumenda velit debitis mollitia  </p> -->
+        </div>
+        <div class="grid_items" id="sec">2</div>
+        <div class="grid_items">3</div>
+        <div class="grid_items">4</div>
+        <div class="grid_items">5</div>
+    </div>
+</body>
+</html>

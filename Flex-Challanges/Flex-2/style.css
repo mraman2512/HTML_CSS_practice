@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --greyies : #6E6E6DFF;
+    --pinkies : #FAD0C9FF;
+}
+body {
+    margin: 0px;
+    background-color: var(--greyies);
+    font-family: "Open Sans", sans-serif;
+}
+
+.cards {
+    width: 400px;
+    background-color: var(--pinkies);
+    text-align: center;
+    box-shadow: 5px 5px 2px 2px rgb(60, 59, 59, 0.3);
+    margin: 40px 10px;
+}
+
+.top_images {
+    height: 250px;
+    width: 400px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 500px;
+}
+p {
+    font-size: 20px;
+    font-weight: 300px;
+    letter-spacing: 2px;
+}
+
+.button_1 {
+    padding: 15px 60px;
+    margin: 15px;
+    background-color: var(--greyies);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.container_1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container_2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.little_up {
+    position: relative;
+    top: -35px
+}

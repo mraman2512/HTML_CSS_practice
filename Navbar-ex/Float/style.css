@@ -1,0 +1,13 @@
+ul {
+    background-color: #31e13d;
+    border: 1px solid black;
+    overflow: auto;
+    /* so that container chotta na ho jaye  */
+}
+
+li {
+    color: white;
+    list-style: none;
+    padding: 8px 15px;
+    float: left;
+}
